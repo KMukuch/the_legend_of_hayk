@@ -1,0 +1,86 @@
+[
+    {
+        "id": 0,
+        "name": "Meet Hayk",
+        "content": "Set out on a journey and find Hayk.",
+        "init": [],
+        "compl": [
+            {
+                "type": "go to",
+                "target_id": 0
+            }
+        ]
+    },
+
+    {
+        "id": 1,
+        "name": "Go to the Shrine",
+        "content": "Go to the Shrine in Ararat Valley Village and find Vazgen.",
+        "init": [
+            {
+                "type": "quest",
+                "target_id": 0
+            }
+        ],
+        "compl": [
+            {
+                "type": "go to",
+                "target_id": 5
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "Talk with Vazgen",
+        "content": "Talk with Vazgen at the Shrine in Ararat Valley Village.",
+        "init": [
+            {
+                "type": "go to",
+                "target_id": 5
+            }
+        ],
+        "compl": [
+            {
+                "type": "talk to",
+                "target_id": 0
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Go to the Village Gates",
+        "content": "Go to the Ararat Valley Village gates and find the old man Arsen.",
+        "init": [
+            {
+                "type": "talk to",
+                "target_id": 0
+            }
+        ],
+        "compl": [
+            {
+                "type": "go to",
+                "target_id": 1
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "Talk with the old man Arsen",
+        "content": "Find the old man Arsen and talk to him at the village gates.",
+        "init": [
+            {
+                "type": "go to",
+                "target_id": 1
+            }
+        ],
+        "compl": [
+            {
+                "type": "talk to",
+                "target_id": 1
+            }
+        ]
+    }
+]

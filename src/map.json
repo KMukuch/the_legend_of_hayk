@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "name": "Gate",
+        "connections":
+        [
+            {
+                "id": 2,
+                "name": "Main square",
+                "distance": 1
+            },
+            {
+                "id": 7,
+                "name": "Exit",
+                "distance": 1
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "Main square",
+        "connections":
+        [
+            {
+                "id": 1,
+                "name": "Gate",
+                "distance": 1
+            },
+            {
+                "id": 3,
+                "name": "Pottery",
+                "distance": 1
+            },
+            {
+                "id": 4,
+                "name": "Local market",
+                "distance": 1
+            },
+            {
+                "id": 5,
+                "name": "Shrine",
+                "distance": 1
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Pottery",
+        "connections":
+        [
+            {
+                "id": 2,
+                "name": "Main square",
+                "distance": 1
+            },
+            {
+                "id": 4,
+                "name": "Local market",
+                "distance": 1
+            },
+            {
+                "id": 5,
+                "name": "Shrine",
+                "distance": 1
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "Local market",
+        "connections":
+        [
+            {
+                "id": 2,
+                "name": "Main square",
+                "distance": 1
+            },
+            {
+                "id": 3,
+                "name": "Pottery",
+                "distance": 1
+            },
+            {
+                "id": 5,
+                "name": "Shrine",
+                "distance": 1
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "Shrine",
+        "connections":
+        [
+            {
+                "id": 2,
+                "name": "Main square",
+                "distance": 1
+            },
+            {
+                "id": 3,
+                "name": "Pottery",
+                "distance": 1
+            },
+            {
+                "id": 4,
+                "name": "Local market",
+                "distance": 1
+            },
+            {
+                "id": 6,
+                "name": "Forest path",
+                "distance": 2
+            }
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "Forest path",
+        "connections":
+        [
+            {
+                "id": 5,
+                "name": "Shrine",
+                "distance": 2
+            },
+            {
+                "id": 7,
+                "name": "Exit",
+                "distance": 3
+            }
+        ]
+    },
+
+    {
+        "id": 7,
+        "name": "Exit",
+        "connections":
+        [
+            {
+                "id": 1,
+                "name": "Gate",
+                "distance": 1
+            },
+            {
+                "id": 6,
+                "name": "Forest path",
+                "distance": 3
+            }
+        ]
+    }
+]

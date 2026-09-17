@@ -1,25 +1,12 @@
 [
     {
-        "id": 0,
-        "name": "Meet Hayk",
-        "content": "Set out on a journey and find Hayk.",
-        "init": [],
-        "compl": [
-            {
-                "type": "go to",
-                "target_id": 0
-            }
-        ]
-    },
-
-    {
         "id": 1,
         "name": "Go to the Shrine",
         "content": "Go to the Shrine in Ararat Valley Village and find Vazgen.",
         "init": [
             {
-                "type": "quest",
-                "target_id": 0
+                "type": "go to",
+                "target_id": 1
             }
         ],
         "compl": [
@@ -43,7 +30,7 @@
         "compl": [
             {
                 "type": "talk to",
-                "target_id": 0
+                "target_id": 1
             }
         ]
     },
@@ -55,7 +42,7 @@
         "init": [
             {
                 "type": "talk to",
-                "target_id": 0
+                "target_id": 1
             }
         ],
         "compl": [

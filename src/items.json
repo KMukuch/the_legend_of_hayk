@@ -1,12 +1,12 @@
 [
     {
         "id": 0,
-        "name": "sword_ararat_village",
+        "name": "Sword of the Ararat Valley",
         "position":
         {
             "map":
             {
-                "id": 1,
+                "id": 3,
                 "name": "Ararat Valley Village"
             },
             "location":
@@ -19,12 +19,12 @@
 
     {
         "id": 1,
-        "name": "sling_worn",
+        "name": "Sling",
         "position":
         {
             "map":
             {
-                "id": 1,
+                "id": 3,
                 "name": "Ararat Valley Village"
             },
             "location":

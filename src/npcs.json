@@ -1,10 +1,10 @@
 [
     {
-        "id": 0,
+        "id": 1,
         "name": "Vazgen",
         "position": {
             "map": {
-                "id": 1,
+                "id": 3,
                 "name": "Ararat Valley Village"
             },
             "location": {
@@ -14,12 +14,12 @@
         },
         "dialog": [
             {
-                "id": 0,
+                "id": 1,
                 "content": "Barev.",
                 "answer": ""
             },
             {
-                "id": 1,
+                "id": 2,
                 "content": "So you are leaving us? The old man wanted to see you. He has something you definitely need.",
                 "answer": "",
                 "quest_ref": {
@@ -28,18 +28,18 @@
                 }
             },
             {
-                "id": 2,
+                "id": 3,
                 "content": "The old man is waiting for you.",
                 "answer": ""
             }
         ]
     },
     {
-        "id": 1,
+        "id": 2,
         "name": "The old man Arsen",
         "position": {
             "map": {
-                "id": 1,
+                "id": 3,
                 "name": "Ararat Valley Village"
             },
             "location": {
@@ -49,22 +49,22 @@
         },
         "dialog": [
             {
-                "id": 0,
+                "id": 1,
                 "content": "Ah… you came. The winds told me you would set out soon.",
                 "answer": "Yes, I’m leaving the village. You asked to see me?"
             },
             {
-                "id": 1,
+                "id": 2,
                 "content": "Indeed. The road beyond Ararat is not kind. You’ll need more than courage to walk it.",
                 "answer": "I’ve faced danger before. What are you trying to say?"
             },
             {
-                "id": 2,
+                "id": 3,
                 "content": "Take this sword. It was forged in the fires beneath the mountain, before my time. It will not fail you if your heart stays true.",
                 "answer": "I… I don’t know what to say. Thank you, Arsen."
             },
             {
-                "id": 3,
+                "id": 4,
                 "content": "Do not thank me. Thank the mountain that still watches over us. Now go.",
                 "answer": "I’ll remember your words."
             }

@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Babylon",
+        "map_ref": "babylon.json",
+        "connections":
+        [
+            {
+                "id": 2,
+                "name": "Nippur",
+                "distance": 18
+            }
+        ]
+    },
+
+    {
+        "id": 2,
+        "name": "Nippur",
+        "map_ref": "nippur.json",
+        "connections":
+        [
+            {
+                "id": 1,
+                "name": "Babylon",
+                "distance": 18
+            },
+            {
+                "id": 3,
+                "name": "Ararat Valley Village",
+                "distance": 20
+            }
+        ]
+    },
+
+    {
+        "id": 3,
+        "name": "Ararat Valley Village",
+        "map_ref": "ararat_valley_village.json",
+        "connections":
+        [
+            {
+                "id": 2,
+                "name": "Nippur",
+                "distance": 20
+            },
+            {
+                "id": 4,
+                "name": "Sevan Village",
+                "distance": 12
+            }
+        ]
+    },
+
+    {
+        "id": 4,
+        "name": "Sevan Village",
+        "map_ref": "sevan_village.json",
+        "connections":
+        [
+            {
+                "id": 3,
+                "name": "Ararat Valley Village",
+                "distance": 12
+            },
+            {
+                "id": 5,
+                "name": "Caucasus Village",
+                "distance": 15
+            }
+        ]
+    },
+
+    {
+        "id": 5,
+        "name": "Caucasus Village",
+        "map_ref": "caucasus_village.json",
+        "connections":
+        [
+            {
+                "id": 4,
+                "name": "Sevan Village",
+                "distance": 15
+            }
+        ]
+    }
+]
